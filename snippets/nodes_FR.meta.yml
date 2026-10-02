@@ -137,3 +137,19 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 🇫🇷 法国 | FRA
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷 法国 | FRA 3
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: t.me
+  type: hysteria2
