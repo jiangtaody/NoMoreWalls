@@ -7,18 +7,32 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- name: 🌟75@oneclickvpnkeys
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 51285
+  server: 108.181.5.106
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 🇺🇸[www.v2nodes.com] vless-US-1...
+  port: 49433
+  server: 31.14.123.220
+  tls: false
+  type: vless
+  uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
-  name: 🇺🇸[www.v2nodes.com] vless-US-1...
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #4'
   network: grpc
   port: 443
-  server: 201.34.159.221
+  server: 201.34.159.213
   servername: us1.g4m1.biz
   tls: true
   type: vless
   uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
   network: ws
   port: 443
   server: 158.94.173.107
@@ -30,14 +44,20 @@ proxies:
     headers:
       Host: shephe.dpdns.org
     path: /fp=chrome
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #4'
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #8'
   port: 443
   server: 169.40.42.182
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #9'
+  port: 8443
+  server: 104.252.19.114
+  tls: false
+  type: vless
+  uuid: 40cba749-bca9-4089-9c02-84a357244ce0
 - client-fingerprint: edge
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #10'
   network: ws
   port: 8443
   server: 85.149.211.28
@@ -50,7 +70,7 @@ proxies:
       Host: hk.152568.xyz
     path: /cdn/packages/runtime-core.tar.gz
 - client-fingerprint: random
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #7'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
   network: ws
   port: 59686
   server: 154.17.228.81
@@ -62,7 +82,7 @@ proxies:
     headers:
       Host: 123.714541.xyz
     path: /Ra-vl
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #9'
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #12'
   network: ws
   port: 8081
   server: 162.35.104.144
@@ -71,19 +91,12 @@ proxies:
   uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
   ws-opts:
     path: /vless-test
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
-  network: ws
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #13'
   port: 443
-  server: us7-2.998998.best
-  servername: server9.9966338.xyz
-  tls: true
+  server: 185.95.231.233
+  tls: false
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  ws-opts:
-    headers:
-      Host: server9.9966338.xyz
-    path: /imnotarealherox
+  uuid: 1ffa8e68-3378-4cf4-b8f6-44bf3d46d106
 - cipher: aes-128-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1584...
   password: 87e9cb62706b5cd08da95b8b423cb673

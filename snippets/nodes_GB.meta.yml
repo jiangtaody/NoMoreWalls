@@ -1,13 +1,6 @@
 proxies:
-- name: 🇬🇧185812 | ⚡️Telegram = t.me/S...
-  password: 8b60d570-cbce-4791-b3e8-bcb80dd12ac0
-  port: 19443
-  server: uk-002.xiaoxiaobujidao.xyz
-  sni: uk-002.xiaoxiaobujidao.xyz
-  tls: false
-  type: hysteria2
 - encryption: none
-  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #11'
+  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #13'
   network: ws
   port: 443
   server: 199.232.78.159
@@ -20,23 +13,10 @@ proxies:
     headers:
       Host: pan2e.global.ssl.fastly.net
     path: /
-- client-fingerprint: firefox
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #1'
-  network: ws
-  port: 443
-  server: 146.185.143.174
-  servername: lom.vip100.cfd
-  tls: true
-  type: vless
-  uuid: 720043a3-d5fb-4a94-883c-13e4b628253c
-  ws-opts:
-    headers:
-      Host: lom.vip100.cfd
-    path: /
 - alpn:
   - h3
   client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #2'
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #1'
   network: ws
   port: 443
   server: cd.dlclive.click
@@ -48,10 +28,17 @@ proxies:
     headers:
       Host: cd-sr1.k8k8110.com
     path: /
-- encryption: none
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
+  port: 2083
+  server: 66.90.104.42
+  tls: false
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: ''
+  encryption: none
   grpc-opts:
     grpc-service-name: vless
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #6'
   network: grpc
   port: 2083
   server: 66.90.105.211
