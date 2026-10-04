@@ -82,7 +82,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  name: 🇩🇪DE_4|1.9MB/s
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
@@ -90,20 +90,19 @@ proxies:
   skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
+  udp: true
 - alpn:
   - h2
-  client-fingerprint: edge
   grpc-opts:
     grpc-service-name: ajv
-  name: 🇩🇪DE_13|2.3MB/s
+  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   network: grpc
   password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
   server: 31.77.168.33
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
-  udp: true
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: UX82473651
   port: 443
@@ -111,77 +110,6 @@ proxies:
   skip-cert-verify: true
   sni: pleased-albacore.rooster465.autos
   type: trojan
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    path:
-    - /
-  name: 🇩🇪DE_2|1.8MB/s
-  network: http
-  port: 2045
-  server: ist1d.lynch.ir
-  type: vless
-  udp: true
-  uuid: 06278d74-9385-42e8-be1b-49c78ebc49ea
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.0MB/s
-  network: ws
-  port: 2087
-  server: 172.67.79.160
-  servername: cvhpyn.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  ws-opts:
-    headers:
-      Host: cvhpyn.pages.dev
-    path: /
-- name: 🇩🇪DE_6|2.3MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|3.3MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|3.0MB/s
-  port: 443
-  server: 185.232.70.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|3.1MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_12|2.7MB/s
-  network: ws
-  port: 8443
-  server: shop.neexbyte.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: ''
-  xudp: true
 - client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #1'
   network: ws
@@ -196,6 +124,29 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /
+- name: 🇩🇪DE_5|2.8MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_6|1.8MB/s
+  network: xhttp
+  port: 443
+  server: 50.7.29.181
+  servername: id-24f9d11d.ferrin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
+  xhttp-opts:
+    host: de.vmagnum.win
+    reuse-settings:
+      max-connections: '1'
+  xudp: true
 - auth: cf83b611-6cba-4535-adcb-8da06c6a9146
   name: '🇩🇪 德国 | DEU #3'
   password: cf83b611-6cba-4535-adcb-8da06c6a9146

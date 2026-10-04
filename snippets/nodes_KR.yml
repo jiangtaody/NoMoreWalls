@@ -13,11 +13,13 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
-  password: cdBIDV42DCwnfIN
-  port: 8119
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 141.164.45.187
   type: ss
-- name: '🇰🇷 韩国 | KOR #1'
+- client-fingerprint: chrome
+  name: '🇰🇷 韩国 | KOR #1'
+  network: tcp
   password: UX82473651
   port: 443
   server: amazing-peacock.rooster465.autos

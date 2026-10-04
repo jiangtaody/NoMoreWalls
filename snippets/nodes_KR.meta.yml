@@ -1,5 +1,5 @@
 proxies:
-- name: '🇰🇷[www.v2nodes.com] vless-KR-1... #7'
+- name: 🇰🇷[www.v2nodes.com] vless-KR-1...
   network: ws
   port: 2052
   server: 162.159.38.127
@@ -11,7 +11,7 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
-- name: '🇰🇷[www.v2nodes.com] vless-KR-1... #8'
+- name: '🇰🇷[www.v2nodes.com] vless-KR-1... #1'
   network: ws
   port: 80
   server: 162.159.45.19
@@ -37,11 +37,13 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
-  password: cdBIDV42DCwnfIN
-  port: 8119
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 141.164.45.187
   type: ss
-- name: '🇰🇷 韩国 | KOR #1'
+- client-fingerprint: chrome
+  name: '🇰🇷 韩国 | KOR #1'
+  network: tcp
   password: UX82473651
   port: 443
   server: amazing-peacock.rooster465.autos
