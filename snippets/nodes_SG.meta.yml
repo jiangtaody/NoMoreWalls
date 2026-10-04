@@ -1,37 +1,38 @@
 proxies:
-- name: 🪙98@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  password: d042d150716709bb778cc73889cddb02
-  port: 443
-  server: 138.2.89.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 🇸🇬[www.v2nodes.com] vless-SG
+- client-fingerprint: chrome
+  name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
-  port: 2095
-  server: 104.18.47.113
-  tls: false
+  port: 443
+  server: 27.50.48.8
+  servername: vless2-8vx.pages.dev
+  tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: '🇸🇬[www.v2nodes.com] vless-SG #1'
+      Host: vless2-8vx.pages.dev
+    path: /
+- name: '🇺🇸 美国 | USA #10'
   network: ws
   port: 8080
   server: 104.18.47.113
   tls: false
   type: vless
+  udp: true
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #6'
+- encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  network: tcp
+  port: 16263
+  server: 47.237.74.17
+  tls: false
+  type: vless
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: ws
   port: 8443
   server: 89.116.250.7
@@ -82,7 +83,8 @@ proxies:
     headers:
       Host: onhit.shalana.shop
     path: /shalana
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
   network: ws
   port: 80
   server: 5.223.41.93
@@ -91,7 +93,7 @@ proxies:
   uuid: f2eada1b-fdec-48c6-8638-18ade32993d4
   ws-opts:
     path: /
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #7'
   network: ws
   port: 8880
   server: 45.80.111.45
@@ -102,6 +104,17 @@ proxies:
     headers:
       Host: cnd.singapure.mygold.stream
     path: /cdn/assets/stream
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #12'
+  network: ws
+  port: 8080
+  server: www.whoer.net
+  tls: false
+  type: vless
+  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
+  ws-opts:
+    headers:
+      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬[www.v2nodes.com] ss-SG-1581...
   password: 9epp3o9ng8ej59uv
@@ -114,14 +127,13 @@ proxies:
   port: 8388
   server: 139.180.220.175
   type: ss
-- name: '🇸🇬 新加坡 | SGP #2'
+- name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: UX82473651
   port: 443
   server: desired-boxer.rooster465.autos
   skip-cert-verify: true
   sni: desired-boxer.rooster465.autos
   type: trojan
-  udp: true
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   password: UX82473651
   port: 443
@@ -174,26 +186,60 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '🇸🇬 新加坡 | SGP #1'
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #1'
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: '🇸🇬 新加坡 | SGP #2'
   password: UX82473651
   port: 443
-  server: holy-lamb.rooster465.autos
+  server: pet-antelope.rooster465.autos
   skip-cert-verify: true
-  sni: holy-lamb.rooster465.autos
+  sni: pet-antelope.rooster465.autos
   type: trojan
   udp: true
-- name: '🇸🇬 新加坡 | SGP #4'
-  password: UX82473651
+- name: 🇸🇬 新加坡 | SGP 3
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1008
+  server: 3eqhzekn.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: co-af01e9.9999231.xyz
+  type: anytls
+  udp: true
+- name: '🇸🇬 新加坡 | SGP #3'
+  network: ws
+  port: 8080
+  server: 104.18.35.86
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /sg-melbi
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #4'
+  network: ws
   port: 443
-  server: inviting-ferret.rooster465.autos
-  skip-cert-verify: true
-  sni: inviting-ferret.rooster465.autos
-  type: trojan
+  server: cf.090227.xyz
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
   udp: true
-- name: '🇸🇬 新加坡 | SGP #6'
-  password: 5b140fc6a0a74e7f
-  port: 20008
-  server: gsg192i.zxom.eu.org
-  skip-cert-verify: true
-  sni: gsg192i.zxom.eu.org
-  type: trojan
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
