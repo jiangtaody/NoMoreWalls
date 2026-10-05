@@ -145,9 +145,9 @@ proxies:
       Host: www.calmlunch.com
     path: '%2Fassignment'
 - cipher: aes-256-cfb
-  name: '🇫🇷 法国 | FRA #2'
+  name: '🇫🇷 法国 | FRA #3'
   password: amazonskr05
   port: 443
-  server: 15.237.255.137
+  server: 52.47.133.105
   type: ss
   udp: true
